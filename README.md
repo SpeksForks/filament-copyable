@@ -14,14 +14,15 @@ composer require saadj55/filament-copyable
 ```
 ## Usage
 ### Column
-In in your Table Schema:
+In your Table Schema:
 
 ```php
 
 \Saadj55\FilamentCopyable\Tables\Columns\CopyableTextColumn::make('name')
 
 ```
-You can make the icon to only appear on hover with the `->showOnHover()` method, 
+
+You can make the icon only appear on hover with the `->showOnHover()` method, 
 
 You can set a custom [heroicon](https://heroicons.com/) by using the `->icon('heroicon-o-duplicate')` method.
 
